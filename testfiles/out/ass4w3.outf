@@ -1,0 +1,77 @@
+Reading file ass4w3.pls ....Please wait
+
+Printing input buffer parameters:
+
+The capacity of the buffer is:  348
+The current size of the buffer is:  347
+
+Printing input buffer contents:
+
+!<This program contains a syntax error
+!<Forsyth's second corollary to Murphy's law:
+!<"Just when you see the light at the end of the tunnel, the roof caves."
+
+PLATYPUS{
+ INPUT(IF);
+ a% = "";
+ INPUT(b,a,b%);
+ IF(if == "begin" .AND a% |= a)THEN
+   a% = "begin" # a% # b% # "end";
+ 
+^@#$& ELSE{REPEAT};
+PLATYPUS !<What is this creature doing here?
+}
+
+Parsing the source file...
+
+PLATY: Syntax error:  Line:  6
+*****  Token code: 16 Attribute: IF
+PLATY: Variable_list parsed.
+PLATY: Syntax error:  Line:  6
+*****  Token code: 16 Attribute: IF
+PLATY: Input statement parsed
+PLATY: Primary_string_expression parsed
+PLATY: String_expression parsed
+PLATY: Assignment_expression parsed
+PLATY: Assignment_statement parsed
+PLATY: Variable_identifier parsed.
+PLATY: Variable_identifier parsed.
+PLATY: Variable_identifier parsed.
+PLATY: Variable_list parsed.
+PLATY: Variable_list parsed.
+PLATY: Variable_list parsed.
+PLATY: Input statement parsed
+PLATY: Primary_a_relational_expression parsed
+PLATY: Relational_operator parsed
+PLATY: Syntax error:  Line:  9
+*****  Token code:  6 Attribute: begin
+PLATY: Primary_a_relational_expression parsed
+PLATY: Relational_expression parsed
+PLATY: Conditional_expression parsed
+PLATY: Syntax error:  Line:  9
+*****  Token code:  6 Attribute: begin
+PLATY: Primary_string_expression parsed
+PLATY: Primary_string_expression parsed
+PLATY: Primary_string_expression parsed
+PLATY: Primary_string_expression parsed
+PLATY: String_expression_p parsed
+PLATY: String_expression_p parsed
+PLATY: String_expression_p parsed
+PLATY: String_expression parsed
+PLATY: Assignment_expression parsed
+PLATY: Syntax error:  Line: 12
+*****  Token code:  0 Attribute: ^
+PLATY: Assignment_statement parsed
+PLATY: Syntax error:  Line: 12
+*****  Token code:  0 Attribute: @
+PLATY: Syntax error:  Line: 12
+*****  Token code: 16 Attribute: REPEAT
+PLATY: Selection_statement parsed
+PLATY: Syntax error:  Line: 13
+*****  Token code: 16 Attribute: PLATYPUS
+PLATY: Program parsed
+PLATY: Source file parsed
+
+Syntax errors: 6
+
+Collecting garbage...

@@ -1,0 +1,143 @@
+Reading file ass2r.pls ....Please wait
+
+Printing input buffer parameters:
+
+The capacity of the buffer is:  575
+The current size of the buffer is:  574
+
+Printing input buffer contents:
+
+!< This program calculates the sum of 32767 even numbers.
+!< The program is "lexically" and "syntactically" correct
+!< and should not produce any error
+PLATYPUS {
+ 
+ a=+0.0;
+ 
+ sum008 = 7.87050 ;
+ INPUT(a,sum008); 
+ USING(i = 0,i < 32767 .OR. i == 077777,i = i + 02 )REPEAT{
+   a=
+   a*i/0.5
+   ;
+   sum008 = sum008 + a - 1 ;
+ };
+ IF(text% == "")THEN
+   text% = "prog" # "ram";
+ ELSE {
+   text% = text% # "ram";
+ };
+ OUTPUT("\* This is a platypus -:)-<-<-- \*");
+ OUTPUT(text%);
+ 
+ IF(text% == "program".OR.sum008<>8..AND.i>012)THEN
+  OUTPUT(sum008);
+  OUTPUT();
+ ELSE{};
+}
+
+
+Parsing the source file...
+
+PLATY: Primary_arithmetic_expression parsed
+PLATY: Unary_arithmetic_expression parsed
+PLATY: Arithmetic_expression parsed
+PLATY: Assignment_expression parsed
+PLATY: Assignment_statement parsed
+PLATY: Primary_arithmetic_expression parsed
+PLATY: Arithmetic_expression parsed
+PLATY: Assignment_expression parsed
+PLATY: Assignment_statement parsed
+PLATY: Variable_identifier parsed.
+PLATY: Variable_identifier parsed.
+PLATY: Variable_list parsed.
+PLATY: Variable_list parsed.
+PLATY: Input statement parsed
+PLATY: Primary_arithmetic_expression parsed
+PLATY: Arithmetic_expression parsed
+PLATY: Assignment_expression parsed
+PLATY: Primary_a_relational_expression parsed
+PLATY: Relational_operator parsed
+PLATY: Primary_a_relational_expression parsed
+PLATY: Relational_expression parsed
+PLATY: Primary_a_relational_expression parsed
+PLATY: Relational_operator parsed
+PLATY: Primary_a_relational_expression parsed
+PLATY: Relational_expression parsed
+PLATY: Logical_or_expression parsed
+PLATY: Conditional_expression parsed
+PLATY: Primary_arithmetic_expression parsed
+PLATY: Primary_arithmetic_expression parsed
+PLATY: Additive_arithmetic_expression parsed
+PLATY: Arithmetic_expression parsed
+PLATY: Assignment_expression parsed
+PLATY: Primary_arithmetic_expression parsed
+PLATY: Primary_arithmetic_expression parsed
+PLATY: Primary_arithmetic_expression parsed
+PLATY: Multiplicative_arithmetic_expression parsed
+PLATY: Multiplicative_arithmetic_expression parsed
+PLATY: Arithmetic_expression parsed
+PLATY: Assignment_expression parsed
+PLATY: Assignment_statement parsed
+PLATY: Primary_arithmetic_expression parsed
+PLATY: Primary_arithmetic_expression parsed
+PLATY: Primary_arithmetic_expression parsed
+PLATY: Additive_arithmetic_expression parsed
+PLATY: Additive_arithmetic_expression parsed
+PLATY: Arithmetic_expression parsed
+PLATY: Assignment_expression parsed
+PLATY: Assignment_statement parsed
+PLATY: Iteration_statement parsed
+PLATY: Primary_string_expression parsed
+PLATY: Primary_s_relational_expression parsed
+PLATY: Relational_operator parsed
+PLATY: Primary_string_expression parsed
+PLATY: Primary_s_relational_expression parsed
+PLATY: Relational_expression parsed
+PLATY: Conditional_expression parsed
+PLATY: Primary_string_expression parsed
+PLATY: Primary_string_expression parsed
+PLATY: String_expression_p parsed
+PLATY: String_expression parsed
+PLATY: Assignment_expression parsed
+PLATY: Assignment_statement parsed
+PLATY: Primary_string_expression parsed
+PLATY: Primary_string_expression parsed
+PLATY: String_expression_p parsed
+PLATY: String_expression parsed
+PLATY: Assignment_expression parsed
+PLATY: Assignment_statement parsed
+PLATY: Selection_statement parsed
+PLATY: STR_T Output_list parsed
+PLATY: Output_statement parsed
+PLATY: Variable_identifier parsed.
+PLATY: Variable_list parsed.
+PLATY: Output_statement parsed
+PLATY: Primary_string_expression parsed
+PLATY: Primary_s_relational_expression parsed
+PLATY: Relational_operator parsed
+PLATY: Primary_string_expression parsed
+PLATY: Primary_s_relational_expression parsed
+PLATY: Relational_expression parsed
+PLATY: Primary_a_relational_expression parsed
+PLATY: Relational_operator parsed
+PLATY: Primary_a_relational_expression parsed
+PLATY: Relational_expression parsed
+PLATY: Primary_a_relational_expression parsed
+PLATY: Relational_operator parsed
+PLATY: Primary_a_relational_expression parsed
+PLATY: Relational_expression parsed
+PLATY: Logical_and_expression parsed
+PLATY: Logical_or_expression parsed
+PLATY: Conditional_expression parsed
+PLATY: Variable_identifier parsed.
+PLATY: Variable_list parsed.
+PLATY: Output_statement parsed
+PLATY: Empty Opt_variable_list parsed
+PLATY: Output_statement parsed
+PLATY: Opt_statements parsed
+PLATY: Selection_statement parsed
+PLATY: Program parsed
+PLATY: Source file parsed
+
+Collecting garbage...

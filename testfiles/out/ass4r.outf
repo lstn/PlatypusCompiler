@@ -1,0 +1,147 @@
+Reading file ass4r.pls ....Please wait
+
+Printing input buffer parameters:
+
+The capacity of the buffer is:  451
+The current size of the buffer is:  450
+
+Printing input buffer contents:
+
+!<This is a syntactically correct PLATYPUS program
+!<Weiler's law:
+!<"Nothing is impossible for the man who doesn't have to do it himself."
+!<"Parsing is passing." S^R & Compilers' law
+
+PLATYPUS{
+ a=-01;
+ b=+0.;
+ INPUT(c);
+ INPUT(d,e,f);
+ c=((d+e)/a)*f-(((d-e)*a)/f);
+ USING(a = a,a<>b .OR. c==d .AND. e<f .OR. a>0,c = e)REPEAT{
+   IF(a==1 .AND. b==0.0)THEN
+    c=-(5.9);
+   ELSE {c=-c;};  
+ };   
+ OUTPUT();
+ OUTPUT("Results: ");
+ OUTPUT(d,e,f,a);
+}
+
+Parsing the source file...
+
+PLATY: Primary_arithmetic_expression parsed
+PLATY: Unary_arithmetic_expression parsed
+PLATY: Arithmetic_expression parsed
+PLATY: Assignment_expression parsed
+PLATY: Assignment_statement parsed
+PLATY: Primary_arithmetic_expression parsed
+PLATY: Unary_arithmetic_expression parsed
+PLATY: Arithmetic_expression parsed
+PLATY: Assignment_expression parsed
+PLATY: Assignment_statement parsed
+PLATY: Variable_identifier parsed.
+PLATY: Variable_list parsed.
+PLATY: Input statement parsed
+PLATY: Variable_identifier parsed.
+PLATY: Variable_identifier parsed.
+PLATY: Variable_identifier parsed.
+PLATY: Variable_list parsed.
+PLATY: Variable_list parsed.
+PLATY: Variable_list parsed.
+PLATY: Input statement parsed
+PLATY: Primary_arithmetic_expression parsed
+PLATY: Primary_arithmetic_expression parsed
+PLATY: Additive_arithmetic_expression parsed
+PLATY: Arithmetic_expression parsed
+PLATY: Primary_arithmetic_expression parsed
+PLATY: Primary_arithmetic_expression parsed
+PLATY: Multiplicative_arithmetic_expression parsed
+PLATY: Arithmetic_expression parsed
+PLATY: Primary_arithmetic_expression parsed
+PLATY: Primary_arithmetic_expression parsed
+PLATY: Multiplicative_arithmetic_expression parsed
+PLATY: Primary_arithmetic_expression parsed
+PLATY: Primary_arithmetic_expression parsed
+PLATY: Additive_arithmetic_expression parsed
+PLATY: Arithmetic_expression parsed
+PLATY: Primary_arithmetic_expression parsed
+PLATY: Primary_arithmetic_expression parsed
+PLATY: Multiplicative_arithmetic_expression parsed
+PLATY: Arithmetic_expression parsed
+PLATY: Primary_arithmetic_expression parsed
+PLATY: Primary_arithmetic_expression parsed
+PLATY: Multiplicative_arithmetic_expression parsed
+PLATY: Arithmetic_expression parsed
+PLATY: Primary_arithmetic_expression parsed
+PLATY: Additive_arithmetic_expression parsed
+PLATY: Arithmetic_expression parsed
+PLATY: Assignment_expression parsed
+PLATY: Assignment_statement parsed
+PLATY: Primary_arithmetic_expression parsed
+PLATY: Arithmetic_expression parsed
+PLATY: Assignment_expression parsed
+PLATY: Primary_a_relational_expression parsed
+PLATY: Relational_operator parsed
+PLATY: Primary_a_relational_expression parsed
+PLATY: Relational_expression parsed
+PLATY: Primary_a_relational_expression parsed
+PLATY: Relational_operator parsed
+PLATY: Primary_a_relational_expression parsed
+PLATY: Relational_expression parsed
+PLATY: Primary_a_relational_expression parsed
+PLATY: Relational_operator parsed
+PLATY: Primary_a_relational_expression parsed
+PLATY: Relational_expression parsed
+PLATY: Logical_and_expression parsed
+PLATY: Primary_a_relational_expression parsed
+PLATY: Relational_operator parsed
+PLATY: Primary_a_relational_expression parsed
+PLATY: Relational_expression parsed
+PLATY: Logical_or_expression parsed
+PLATY: Logical_or_expression parsed
+PLATY: Conditional_expression parsed
+PLATY: Primary_arithmetic_expression parsed
+PLATY: Arithmetic_expression parsed
+PLATY: Assignment_expression parsed
+PLATY: Primary_a_relational_expression parsed
+PLATY: Relational_operator parsed
+PLATY: Primary_a_relational_expression parsed
+PLATY: Relational_expression parsed
+PLATY: Primary_a_relational_expression parsed
+PLATY: Relational_operator parsed
+PLATY: Primary_a_relational_expression parsed
+PLATY: Relational_expression parsed
+PLATY: Logical_and_expression parsed
+PLATY: Conditional_expression parsed
+PLATY: Primary_arithmetic_expression parsed
+PLATY: Arithmetic_expression parsed
+PLATY: Primary_arithmetic_expression parsed
+PLATY: Unary_arithmetic_expression parsed
+PLATY: Arithmetic_expression parsed
+PLATY: Assignment_expression parsed
+PLATY: Assignment_statement parsed
+PLATY: Primary_arithmetic_expression parsed
+PLATY: Unary_arithmetic_expression parsed
+PLATY: Arithmetic_expression parsed
+PLATY: Assignment_expression parsed
+PLATY: Assignment_statement parsed
+PLATY: Selection_statement parsed
+PLATY: Iteration_statement parsed
+PLATY: Empty Opt_variable_list parsed
+PLATY: Output_statement parsed
+PLATY: STR_T Output_list parsed
+PLATY: Output_statement parsed
+PLATY: Variable_identifier parsed.
+PLATY: Variable_identifier parsed.
+PLATY: Variable_identifier parsed.
+PLATY: Variable_identifier parsed.
+PLATY: Variable_list parsed.
+PLATY: Variable_list parsed.
+PLATY: Variable_list parsed.
+PLATY: Variable_list parsed.
+PLATY: Output_statement parsed
+PLATY: Program parsed
+PLATY: Source file parsed
+
+Collecting garbage...

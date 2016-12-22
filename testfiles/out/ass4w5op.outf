@@ -1,0 +1,114 @@
+Reading file ass4w5op.pls ....Please wait
+
+Printing input buffer parameters:
+
+The capacity of the buffer is:  210
+The current size of the buffer is:  209
+
+Printing input buffer contents:
+
+PLATYPUS{
+a = a .AND. a;
+b = b .OR. b;
+IF(a+a + b-b - c/c + d*d)
+THEN a=b; ELSE{};
+IF(c/c - d*d)
+THEN a=b; ELSE{};
+IF(a==a + b==b)
+THEN a=b; ELSE{};
+IF(c==c - d==d)
+THEN a=b; ELSE{};
+a = a == b;
+b = b <> b; 
+}
+
+Parsing the source file...
+
+PLATY: Primary_arithmetic_expression parsed
+PLATY: Arithmetic_expression parsed
+PLATY: Assignment_expression parsed
+PLATY: Syntax error:  Line:  2
+*****  Token code: 11 Attribute: 0
+PLATY: Assignment_statement parsed
+PLATY: Primary_arithmetic_expression parsed
+PLATY: Arithmetic_expression parsed
+PLATY: Assignment_expression parsed
+PLATY: Syntax error:  Line:  3
+*****  Token code: 11 Attribute: 1
+PLATY: Assignment_statement parsed
+PLATY: Primary_a_relational_expression parsed
+PLATY: Syntax error:  Line:  4
+*****  Token code:  9 Attribute: 0
+PLATY: Syntax error:  Line:  4
+*****  Token code:  9 Attribute: 0
+PLATY: Primary_a_relational_expression parsed
+PLATY: Relational_expression parsed
+PLATY: Conditional_expression parsed
+PLATY: Syntax error:  Line:  4
+*****  Token code:  9 Attribute: 0
+PLATY: Primary_arithmetic_expression parsed
+PLATY: Arithmetic_expression parsed
+PLATY: Assignment_expression parsed
+PLATY: Assignment_statement parsed
+PLATY: Opt_statements parsed
+PLATY: Selection_statement parsed
+PLATY: Primary_a_relational_expression parsed
+PLATY: Syntax error:  Line:  6
+*****  Token code:  9 Attribute: 3
+PLATY: Syntax error:  Line:  6
+*****  Token code:  9 Attribute: 3
+PLATY: Primary_a_relational_expression parsed
+PLATY: Relational_expression parsed
+PLATY: Conditional_expression parsed
+PLATY: Syntax error:  Line:  6
+*****  Token code:  9 Attribute: 3
+PLATY: Primary_arithmetic_expression parsed
+PLATY: Arithmetic_expression parsed
+PLATY: Assignment_expression parsed
+PLATY: Assignment_statement parsed
+PLATY: Opt_statements parsed
+PLATY: Selection_statement parsed
+PLATY: Primary_a_relational_expression parsed
+PLATY: Relational_operator parsed
+PLATY: Primary_a_relational_expression parsed
+PLATY: Relational_expression parsed
+PLATY: Conditional_expression parsed
+PLATY: Syntax error:  Line:  8
+*****  Token code:  9 Attribute: 0
+PLATY: Primary_arithmetic_expression parsed
+PLATY: Arithmetic_expression parsed
+PLATY: Assignment_expression parsed
+PLATY: Assignment_statement parsed
+PLATY: Opt_statements parsed
+PLATY: Selection_statement parsed
+PLATY: Primary_a_relational_expression parsed
+PLATY: Relational_operator parsed
+PLATY: Primary_a_relational_expression parsed
+PLATY: Relational_expression parsed
+PLATY: Conditional_expression parsed
+PLATY: Syntax error:  Line: 10
+*****  Token code:  9 Attribute: 1
+PLATY: Primary_arithmetic_expression parsed
+PLATY: Arithmetic_expression parsed
+PLATY: Assignment_expression parsed
+PLATY: Assignment_statement parsed
+PLATY: Opt_statements parsed
+PLATY: Selection_statement parsed
+PLATY: Primary_arithmetic_expression parsed
+PLATY: Arithmetic_expression parsed
+PLATY: Assignment_expression parsed
+PLATY: Syntax error:  Line: 12
+*****  Token code: 10 Attribute: 0
+PLATY: Assignment_statement parsed
+PLATY: Primary_arithmetic_expression parsed
+PLATY: Arithmetic_expression parsed
+PLATY: Assignment_expression parsed
+PLATY: Syntax error:  Line: 13
+*****  Token code: 10 Attribute: 1
+PLATY: Assignment_statement parsed
+PLATY: Program parsed
+PLATY: Source file parsed
+
+Syntax errors: 8
+
+Collecting garbage...
